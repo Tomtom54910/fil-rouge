@@ -1,0 +1,211 @@
+.tous {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.exemple {
+    padding: 15px;
+    margin: 15px;
+}
+
+#ep1px {
+    border: 1px solid black;
+}
+
+#ep3px {
+    border: 3px solid black;
+}
+
+#ep5px {
+    border: 5px solid black;
+}
+
+#ep10px {
+    border: 10px solid black;
+}
+
+#radius0px {
+    border: 5px solid black;
+    border-radius: 0px;
+}
+
+
+#radius20px {
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#radius40px {
+    border: 5px solid black;
+    border-radius: 40px;
+}
+
+#radius55px {
+    border: 5px solid black;
+    border-radius: 55px;
+}
+
+#radius0pourcent {
+    border: 5px solid black;
+    border-radius: 0%;
+}
+#radius15pourcent {
+    border: 5px solid black;
+    border-radius: 15%;
+}
+#radius30pourcent {
+    border: 5px solid black;
+    border-radius: 30%;
+}
+#radius50pourcent {
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+#radius0pt {
+    border: 5px solid black;
+    border-radius: 0pt;
+}
+#radius10pt {
+    border: 5px solid black;
+    border-radius: 10pt;
+}
+#radius20pt {
+    border: 5px solid black; 
+    border-radius: 20pt;   
+}
+#radius34pt {
+    border: 5px solid black;
+    border-radius: 34pt;
+}
+
+#radius0rem {
+    border: 5px solid black;
+    border-radius: 0rem;
+}
+#radius1rem {
+    border: 5px solid black;
+    border-radius: 1rem;
+}
+#radius2rem {
+    border: 5px solid black;
+    border-radius: 2rem;
+}
+#radius3rem {
+    border: 5px solid black;
+    border-radius: 3rem;
+}
+#radius0vh {
+    border: 5px solid black;
+    border-radius: 0vh;
+}
+#radius2vh {
+    border: 5px solid black;
+    border-radius: 2vh;
+}
+#radius4vh {
+    border: 5px solid black;
+    border-radius: 4vh;
+}
+#radius6vh {
+    border: 5px solid black;
+    border-radius: 6vh;
+}
+#radius0vmax {
+    border: 5px solid black;
+    border-radius: 0vmax;
+}
+#radius1vmax {
+    border: 5px solid black;
+    border-radius: 1vmax;
+}
+#radius2vmax {
+    border: 5px solid black;
+    border-radius: 2vmax;
+}
+#radius4vmax {
+    border: 5px solid black;
+    border-radius: 4vmax;
+}
+#radius0vmin {
+    border: 5px solid black;
+    border-radius: 0vmin;
+}
+#radius2vmin {
+    border: 5px solid black;
+    border-radius: 2vmin;
+}
+#radius4vmin {
+    border: 5px solid black;
+    border-radius: 4vmin;
+}
+#radius6vmin {
+    border: 5px solid black;
+    border-radius: 6vmin;
+}
+#radius0vw {
+    border: 5px solid black;
+    border-radius: 0vw;
+}
+#radius1vw {
+    border: 5px solid black;
+    border-radius: 1vw;
+}
+#radius2vw {
+    border: 5px solid black;
+    border-radius: 2vw;
+}
+#radius4vw {
+    border: 5px solid black;
+    border-radius: 4vw;
+}
+
+#styledashed {
+    border: 5px black;
+    border-style: dashed;
+}
+
+#styledotted {
+    border: 5px black;
+    border-style: dotted;
+}
+
+
+#stylesolid {
+    border: 5px black;
+    border-style: solid;
+}
+
+#styledouble {
+    border: 5px solid black;
+    border-style: double;
+}
+
+#stylemulti {
+    border: 5px solid black;
+    border-style: dashed dotted double solid;
+}
+
+#fontsize10 {
+    font-size: 10px;
+}
+
+#fontsize20 {
+    font-size: 20px;
+}
+
+#fontsize30 {
+    font-size: 30px;
+}
+
+#fontsize40 {
+    font-size: 40px;
+}
+
+#fonts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

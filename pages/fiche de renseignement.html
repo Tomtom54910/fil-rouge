@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/fiche de renseignement.css"/>
+    <title>Fiche de renseignement</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form action="POST" method="POST">
+    <div>
+    <label> Nom </label>
+    <input type="text" name="nom">
+    <label>Prénom</label>
+    <input type="text" name="Prénom">
+    </div>
+    <div>
+    <label>Date de naissance</label>
+    <input type="date" name="date_de_naissance"
+        value="2000-01-01"
+        min="1900-01-01" max=2021-01-01>
+    </div>
+    </form>
+    <p>Sexe :</p>
+
+    <div>
+    <input type="radio" id="Homme" name="Sexe" value="Homme"
+            checked>
+    <label for="Homme">Homme</label>
+    </div>
+    <div>
+    <input type="radio" id="Femme" name="Sexe" value="Femme">
+    <label for="Femme">Femme</label>
+    </div>
+    <div>
+    <input type="radio" id="Autre" name="Sexe" value="Autre">
+    <label for="Autre">Autre</label>
+    </div>
+
+    <div>
+        <label>Pays(France/Italie/Allemagne :</label>
+    <select name="pays" id="pays_selection">
+        <option value="Choisir un pays">Choisir un pays</option>
+        <option value="France">France</option>
+        <option value="Italie">Italie</option>
+        <option value="Allemagne">Allemagne</option>
+    </select>
+    </div>
+    
+    <div>
+        <label for="Description">Description:</label>
+    </div>
+    <div>
+        <textarea id="Description" name="Description"
+                rows="10" cols="35">
+        </textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Envoyer">
+    </div>
+
+    
+</body>
+
+</html>

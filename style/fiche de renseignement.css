@@ -1,0 +1,14 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+@font-face {
+    src: url('../font/Pacifico-Regular.ttf');
+    font-family: 'Prout';
+}
+
+h1 {
+    font-family: 'prout';
+}

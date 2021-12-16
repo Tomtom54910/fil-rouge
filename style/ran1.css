@@ -1,0 +1,59 @@
+table {
+    
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+#bg {
+    
+    background-image: url(../img/mns.png);
+    background-size: contain auto auto;
+    background-repeat: no-repeat;
+    height: 875px;
+}
+
+body {
+    box-sizing: content-box;
+}
+a {
+    text-decoration: none;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;   
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#accueil {
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: gold;
+    background-color: green;
+    position: fixed;
+    z-index: 2;
+}
+
+p {
+    text-align: center;
+    font-size: 100px;
+    border: solid 25px tomato;
+    border-radius: 50%;
+    color: darkmagenta;
+    margin: 25px;
+    background-color: yellow;
+
+}

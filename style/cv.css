@@ -1,0 +1,74 @@
+body{
+  background-color: grey;  
+}
+.centre{
+    text-align: center;
+}
+#retour {
+  color: red;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.397);
+  font-size: 25px;
+  padding: 10px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+h3 {
+  background-color: white;
+  border: solid double black 2px;
+  border-radius: 10px;
+}
+img {
+  position: relative;
+  
+  height: 200px;
+  align-items: center;
+}
+
+#tete {
+  display: flex;
+  justify-content: space-evenly;
+}
+.haut {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+#nom{
+  position: relative;
+  right: 350px;
+}
+a {
+  text-decoration: none;
+  color: rgb(110, 182, 216);
+  font-size: 20px;
+}
+
+img {
+  position: relative;
+  
+  height: 200px;
+  align-items: center;
+}
+ul li{
+    text-align: left; 
+}
+
+.description {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.taf {
+    display: flex;
+    text-align: left;
+ }
+
+p {
+  text-align: left;
+}
